@@ -1,0 +1,231 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page*/
+
+header.header {
+    background-color: #d9d9d9;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 84px;
+    margin-left: 30px;
+}
+
+button[id=signOut] {
+    background-color: #BD1111;
+    border: none;
+    color: white;
+    margin-left: 350px;
+    height: 40px;
+    width: 150px;
+}
+
+/* menu de navigation*/
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+    margin-left: 630px;
+}
+
+nav.nav li {
+    font-size: 30px;
+}
+
+/* middle page*/
+
+.real-results {
+    width: 900px;
+    height: 380px;
+    min-height: 300px;
+    border: 3px solid #000000;
+    margin-left: 350px;
+    margin-top: 19px;
+    margin-bottom: 18px;
+}
+
+.title {
+    padding: 0px 30px;
+}
+
+.result1 {
+    height: 50px;
+    width: 564px;
+    border: 3px solid #d9d9d9;
+    margin-left: 160px;
+    display: flex;
+}
+
+.text-result1 {
+    text-align: center;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.result1-img1 {
+    height: 50px;
+    width: 50px;
+    margin-left: 170px;
+}
+
+.result1-img2{
+    height: 50px;
+    width: 50px;
+    margin-left: 55px;
+}
+
+.result2 {
+    height: 50px;
+    width: 564px;
+    border: 3px solid #d9d9d9;
+    margin-top: 20px;
+    margin-left: 160px;
+    display: flex;
+}
+
+.text-result2 {
+    text-align: center;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+.result2-img1 {
+    height: 50px;
+    width: 100px;
+    margin-left: 145px;
+}
+
+.result2-img2{
+    height: 50px;
+    width: 50px;
+    margin-left: 55px;
+}
+
+.result3 {
+    height: 50px;
+    width: 564px;
+    border: 3px solid #d9d9d9;
+    margin-top: 20px;
+    margin-left: 160px;
+    display: flex;
+}
+
+.text-result3 {
+    text-align: center;
+    font-weight: 700;
+    margin-left: 60px;
+}
+
+.result3-img1 {
+    height: 50px;
+    width: 30px;
+    margin-left: 180px;
+}
+
+.result3-img2{
+    height: 50px;
+    width: 50px;
+    margin-left: 55px;
+}
+
+.result4 {
+    height: 50px;
+    width: 564px;
+    border: 3px solid #d9d9d9;
+    margin-top: 20px;
+    margin-left: 160px;
+    display: flex;
+}
+
+.text-result4 {
+    text-align: center;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.result4-img1 {
+    height: 50px;
+    width: 50px;
+    margin-left: 170px;
+}
+
+.result4-img2{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+}
+
+
+/* pied de page */
+
+.best-teams {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    height: 259px;
+    align-items: center;
+}
+
+.team-box {
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.arsenal {
+    background-image: url(../images/Logo_Arsenal.png);
+}
+
+.barcelona {
+    background-image: url(../images/Logo_Barca.png);
+}
+
+.real {
+    background-image: url(../images/Logo_Real.png);
+}
+
+.bayern {
+    background-image: url(../images/Logo_Bayern.png);
+}
+
+.mu {
+    background-image: url(../images/Logo_MU.png);
+}
+
+.psg {
+    background-image: url(../images/Logo_PSG.png);
+}
+
+.mc {
+    background-image: url(../images/Logo_ManCity.png);
+}
+
+.chelsea {
+    background-image: url(../images/Logo_Chelsea.png);
+}
+
+.tot {
+    background-image: url(../images/Logo_Tot.png);
+}
+
+.liverpool {
+    background-image: url(../images/Logo_Liverpool.png);
+}
