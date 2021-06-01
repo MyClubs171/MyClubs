@@ -1,0 +1,161 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page*/
+
+header.header {
+    background-color: #d9d9d9;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 84px;
+    margin-left: 30px;
+}
+
+/* menu de navigation*/
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+    margin-left: 640px;
+}
+
+nav.nav li {
+    font-size: 30px;
+}
+
+/* middle page*/
+
+.login-box {
+    width: 700px;
+    height: 370px;
+    min-height: 300px;
+    border: 3px solid #000000;
+    margin-left: 450px;
+    margin-top: 24px;
+    margin-bottom: 23px;
+}
+
+.title {
+    text-align: center;
+}
+
+input[type=email], input[type=password] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    margin-left: 100px;
+    display: inline-block;
+    border: 1px solid #939393;
+    box-sizing: border-box;
+}
+
+button[id=signUp] {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin-left: 175px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[id=signIn] {
+    background-color: red;
+    border: none;
+    color: white;
+    margin-left: 50px;
+    margin-right: 100px;
+    height: 40px;
+    width: 150px;
+}
+
+button[id=signOut] {
+    background-color: green;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin-left: 275px;
+    margin-top: 25px;
+}
+
+
+  
+button:hover {
+    opacity: 0.8;
+}
+
+/* pied de page */
+
+.best-teams {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    height: 259px;
+    align-items: center;
+}
+
+.team-box {
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.arsenal {
+    background-image: url(../images/Logo_Arsenal.png);
+}
+
+.barcelona {
+    background-image: url(../images/Logo_Barca.png);
+}
+
+.real {
+    background-image: url(../images/Logo_Real.png);
+}
+
+.bayern {
+    background-image: url(../images/Logo_Bayern.png);
+}
+
+.mu {
+    background-image: url(../images/Logo_MU.png);
+}
+
+.psg {
+    background-image: url(../images/Logo_PSG.png);
+}
+
+.mc {
+    background-image: url(../images/Logo_ManCity.png);
+}
+
+.chelsea {
+    background-image: url(../images/Logo_Chelsea.png);
+}
+
+.tot {
+    background-image: url(../images/Logo_Tot.png);
+}
+
+.liverpool {
+    background-image: url(../images/Logo_Liverpool.png);
+}
